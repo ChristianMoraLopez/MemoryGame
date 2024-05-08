@@ -1,0 +1,56 @@
+:root
+{
+    --white : #ffffff;
+    --black : #000000;
+    --green-ocean : #2A6D7E;
+    --blue-cloud : #D6ECF3;
+    --gray-sky : #537287;
+    --blue-sky-dark : #1C4158;
+    --blue-dark:#082F49;
+    --smaller: 0.4rem;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+    --xl: 32px;
+    font-family: 'Berlin Sans FB'; color: rgb(55,52,53); font-size: 14px
+}
+
+footer a
+{
+    font-size: var(--sm);
+    text-decoration: none;
+    
+    
+}
+
+footer 
+{   display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+}
+
+
+
+.name
+{   display: flex;
+    color: var(--green-ocean);
+}
+
+h1
+{
+    color: var(--blue-sky-dark);
+    font-weight: 100;
+    font-family: 'Berlin Sans FB'
+}
+.chargeLogo {
+    object-fit: auto;
+    font-size: var(--smaller);
+    color: var(--green-ocean);
+}
+.headerNav
+    {
+        display: flex;
+        flex-direction: row;
+        margin: 12px;
+        justify-content: space-between;
+    }
