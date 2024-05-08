@@ -9,3 +9,4 @@ EXPOSE 80
 
 # Define el comando que se ejecutará cuando se inicie el contenedor
 CMD ["nginx", "-g", "daemon off;"]
+
